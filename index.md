@@ -54,7 +54,7 @@ int main() {
 
 ## 数式 $a_i$
 
-- インライン数式$a+b=c$だよ
+- インライン数式 <span style="color: red; ">$a+b=c$</span>だよ
 - インライン数式 $a+b=c$ だよ
 
 $$\sum_{i=1}^{N}{A_i}=\frac{N(N+1)}{2}$$
