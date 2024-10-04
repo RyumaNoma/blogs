@@ -14,7 +14,7 @@
 
 意外とおいしかった
 
-<img src="otomo.jpg" width="50%" height="50%">
+<img src="otomo.jpg" width="30%" height="30%">
 
 ## 感想
 

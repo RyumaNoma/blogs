@@ -24,5 +24,8 @@
 
 ## アカウント
 
+<img src="./gajigaji.png" width="20%" height="20%">
+
+- [Twitter](https://twitter.com/n0ma_ru)
 - [AtCoder](https://atcoder.jp/users/n0ma_ru)
 - [Codeforces](https://codeforces.com/profile/n0ma_ru)
