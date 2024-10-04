@@ -124,7 +124,7 @@
 
 <iframe width="512" height="288" src="https://www.youtube.com/embed/4vbDFu0PUew?si=U_2j39zyyvQJxG3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="512" height="288" src="https://www.youtube.com/embed/Q3K0TOvTOno?si=ixkRci97Syp65Ksf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>|
+<iframe width="512" height="288" src="https://www.youtube.com/embed/Q3K0TOvTOno?si=ixkRci97Syp65Ksf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 煉獄杏寿郎
 
