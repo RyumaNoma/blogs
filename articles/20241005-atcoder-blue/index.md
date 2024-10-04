@@ -118,7 +118,7 @@
 私はK-POPアイドルのダンスパフォーマンス動画が好きだが，観客の歓声が入っており好みが分かれるところである．そ
 のためここではおすすめ曲の動画を紹介することにとどめ，ダンスパフォーマンス動画の視聴は読者への課題とする．
 
-|<iframe width="512" height="288" src="https://www.youtube.com/embed/pG6iaOMV46I?si=thxPvpOmSdCL0O8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="512" height="288" src="https://www.youtube.com/embed/pG6iaOMV46I?si=thxPvpOmSdCL0O8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe width="512" height="288" src="https://www.youtube.com/embed/dYRITmpFbJ4?si=mthbCQPrfFwuTdcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
