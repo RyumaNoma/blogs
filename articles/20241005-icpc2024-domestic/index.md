@@ -132,7 +132,7 @@ tenagazaruがE問題を実装している間、F問題を考察し始めた。
 
 ## この記事を読んだ人は以下の記事も読んでいます
 
-- <<https://note.com/super_magpie2889/n/nbbc5b0ef4328>
+- <https://note.com/super_magpie2889/n/nbbc5b0ef4328>
 - <https://kureha908.hatenablog.com/entry/2024/07/06/132616>
 - <https://shinchankosen.hatenadiary.jp/entry/2024/07/06/033309>
 - <https://pro-anyone.hatenablog.com/entry/2024/07/06/041033>

@@ -1,7 +1,7 @@
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-# 青色になった！
+# AtCoder青色になった！
 
 ## はじめに
 
@@ -34,7 +34,7 @@
 - DPで数え上げたいけど重複する → $DP[i]=◯◯の最大値がiになる場合の数$
 - 各要素の重要度が選び方によらず一定 → ソートしてDP
 
-　以上のように自分の中の典型はできる限り（条件） → （テクニック・事実）の形式で理解するようにしている．
+　以上のように自分の中の典型はできる限り<span style="color: red; ">（条件） → （テクニック・事実）</span>の形式で理解するようにしている．
 これは競プロのテクニックを覚えても，使い所が分からなければ意味がないと思うからだ．
 それに加えて，「（条件）を満たすか？」を考えることは再現性のある考察に繋がると考えるからである．
 
@@ -54,8 +54,7 @@
     - $\sum{|X-x_i|+|Y-y_i|}=\sum{|X-x_i|}+\sum{|Y-y_i|}$ 
     （マンハッタン距離の総和における $X$ 軸， $Y$ 軸の分離）
 
-- $\sum^{N}_{L=1}{\sum^{N}_{R=L}{f(L,R)}}=\sum^{N}_{R=1}{\sum^{R}_{L=1}{f(L,R)}}$
-（ $L$ を固定 → $R$ を固定）
+- $\sum _ {L=1}^{N}{\sum^{N} _ {R=L}{f(L,R)}}=\sum _ {R=1}^{N}{\sum^{R} _ {L=1}{f(L,R)}}$ （ $L$ を固定 → $R$ を固定）
 
 - $\sum^{N}_{k=0}{\binom{N}{k}}=2^N$ 　　（ $O(N)$ が 繰り返し二乗法で $O(\log N)$ になる！）
 
@@ -118,13 +117,13 @@
 私はK-POPアイドルのダンスパフォーマンス動画が好きだが，観客の歓声が入っており好みが分かれるところである．そ
 のためここではおすすめ曲の動画を紹介することにとどめ，ダンスパフォーマンス動画の視聴は読者への課題とする．
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pG6iaOMV46I?si=thxPvpOmSdCL0O8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="512" height="288" src="https://www.youtube.com/embed/pG6iaOMV46I?si=thxPvpOmSdCL0O8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dYRITmpFbJ4?si=mthbCQPrfFwuTdcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="512" height="288" src="https://www.youtube.com/embed/dYRITmpFbJ4?si=mthbCQPrfFwuTdcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4vbDFu0PUew?si=U_2j39zyyvQJxG3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="512" height="288" src="https://www.youtube.com/embed/4vbDFu0PUew?si=U_2j39zyyvQJxG3b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q3K0TOvTOno?si=ixkRci97Syp65Ksf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="512" height="288" src="https://www.youtube.com/embed/Q3K0TOvTOno?si=ixkRci97Syp65Ksf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 煉獄杏寿郎
 
