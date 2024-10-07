@@ -6,21 +6,25 @@ body {
 li {
     margin: 5px 0px;
 }
-div, p {
-    line-height: 120%;
-}
 img {
-    object-fit: contain;
+    object-fit: cover;
     width: 90%;
-    height: 600px;
 }
-h1 {
-    text-align: center;
+p {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .content {
+    font-size: 1.1em;
     background: white;
     width: 60%;
     margin-left : auto;
     margin-right: auto;
     padding: 3% 3% 3% 3%;
+}
+.bold {
+    font: bold;
+}
+.red {
+    color: red;
 }

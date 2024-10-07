@@ -1,0 +1,175 @@
+<html>
+<head>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <link rel="stylesheet" href="../style/diary.css">
+    <title>ICPC2024国内予選参加記（n0ma_ru視点）</title>
+</head>
+<body>
+    <div class="content">
+        <h1>ICPC2024国内予選参加記（n0ma_ru視点）</h1>
+        <h2>はじめに</h2>
+        <p>
+            <a href="https://atcoder.jp/users/tenagazaru">tenagazaru</a> と <a href="https://atcoder.jp/users/soumat">soumat</a> と一緒に <span class="bold">KITKAT</span> としてICPC2024国内予選に参加した。
+            このチームで参加するのは2年目になる。去年のことも含めてこの記事に書きたいと思う。
+        </p>
+        
+        <h2>チームメンバー紹介</h2>
+        <p>
+            個人的に他の方のICPC参加記内のチームメンバー紹介の欄を読むのが好き。
+            なので自分は長めに書いてみようと思う。
+            紹介は国内予選参加時のAtCoderレート順。
+        </p>
+        <ul>
+            <li class="bold">tenagazaru（AtCoder: 1885）青3</li>
+            <ul>
+                <li>OMCプレイヤーであることもあり数学的考察が3人の中で一番できる</li>
+                <li>演習量が多く、典型力がある</li>
+                <li>考察の一手目が速い</li>
+                <li>下振れしてもパフォーマンスが高く、KITKATの安定感担当</li>
+                <li>コードテスト派</li>
+                <li>幣学競プロサークル部長</li>
+            </ul>
+            <li class="bold">soumat（AtCoder: 1847）青3</li>
+            <ul>
+                <li>ヒューリスティック黄</li>
+                <li>考察にヒューリスティックっぽさがある「こういう性質満たしてほしいな～」「こういう貪欲ありそう」等</li>
+                <li>バグ発見力が高い</li>
+                <li>ARC・AGCでレートを爆上げしてるイメージがある</li>
+                <li>上振れした時の爆発力が高い</li>
+            </ul>
+            <li>n0ma_ru（AtCoder: 1596）水4</li>
+            <ul>
+                <li>この記事の筆者</li>
+                <li>他二人が「競プロの楽しさは考察で、実装はしたくない派」であることもあり、レートは最下位だが実装を担当することが多い</li>
+                <li>幾何・構文解析も実装担当</li>
+            </ul>
+        </ul>
+
+        <h2>去年のICPC</h2>
+        <p>
+            　去年のチーム結成時はsoumatと自分は顔見知りで、tenagazaruとは初対面だった。
+            このときは全員が緑コーダーだった。
+            自分がレートが最も高かったこともあり実装は全て自分が担当した。（今ではチーム内最下位ですが、、、😢）
+        </p>
+        <p>
+            　国内予選では、C問題の天才構築をsoumatが解き、自分が実装をして68位だった。
+            同校制限によりギリギリ50位でアジア予選に進出した。
+            通るとは思っておらずびっくり。
+        </p>
+        <p>
+            　11月末にあったアジア予選のころには全員水色コーダーになっていた。
+            何位だったか覚えてないほど低い順位をとって、去年のICPCは終了した。
+            来年もアジア予選に出たいなと強く思ったことだけ覚えてる。
+        </p>
+
+        <h2>今年のICPC</h2>
+        <p>
+            　去年に引き続きこの3人でICPCに出ることにした。
+            3人とも同じ研究室に配属されたことにより、研究室というICPCチーム練習場所を確保することに成功。
+            今年度は毎週土曜日に集まって国内予選の過去問を解く練習をしたり、平日は1時間で青diff2問解くバチャをやったり（これは最近やってない）、大学コン出たり、チームヒューリスティックのコンテスト出たり、ライブラリを作ったり、いっぱい競プロをやった。
+            複数人で競プロやるの楽しすぎて一人での精進が面倒だと思い始めるくらいだった。
+        </p>
+
+        <h2>模擬国内</h2>
+        <p>
+            　そんなこんなで国内予選一週間前になった。
+            実感が湧かないながらも模擬国内に出場した。
+            tenagazaruは用事があり、soumatとデュオ参加だった。
+            結果は画像の感じだった。
+            E問題を通したかったが、国内予選を突破するためにはまあ悪くない結果だと感じた。
+        </p>
+        <img src="fig/mogi.png" alt="模擬国内の順位表">
+        <p>
+            C問題で最悪で $3 \times 10^9$ 回の計算を行うコードでギリギリACし、6分ルールの怖さを思い知らされた。
+        </p>
+        <img src="fig/mogi-run.png">
+
+        <h2>国内予選中の様子（時系列）</h2>
+        <p>
+            事前に戦略として話していたのはA問題をみんなで見て分かった人が解く。それ以降は
+        </p>
+        <ul>
+            <li>基本的に「実装一人考察二人」</li>
+            <li>バグったら「実装二人考察一人」</li>
+            <li>もっとバグったら「実装三人」</li>
+        </ul>
+        と決めていた。
+
+        <h3>開始直前</h3>
+        本番はめちゃくちゃ緊張するタイプでずーーーーーっとそわそわしてた。KitKatというお菓子を食べた。
+        <h3>A問題</h3>
+        自分が問題を読み終わる前にsoumatが書き始めた。AC
+        <h3>B問題</h3>
+        直前の状態を持てばOK。自分が実装してAC。
+        <h3>C問題</h3>
+        最近のABCで見たやつだった。tenagazaruが実装してAC。
+        <h3>D問題</h3>
+        最初の $4\times100\times100$ 回シミュレーションすれば、ループするか外に出るからそれを自分が実装した。
+        いくつかバグが出たがsoumatと一緒にデバッグしAC。
+        この時点でE問題以降を通しているチームはおらず、かなり順調だった。
+        <h3>E問題</h3>
+        左上1/4を貪欲に色塗りして点対称にコピーすればいいんじゃね？で自分が実装してWA。
+        この実装にもめちゃくちゃ時間かかってて泣きそうだった。
+        左上1/4に収まらないケースがあることが発覚し、tenagazaruが一から書き直してAC。
+        申し訳なさで潰れそうだった。まじでありがとう 🙇🙇🙇🙇🙇🙇
+        <h3>F問題</h3>
+        tenagazaruがE問題を実装している間、F問題を考察し始めた。
+        答えは高々4つだと気づいた。
+        衝突は拡張ユークリッドの互除法で判定できるというのをtenagazaruが気づいたが、どのボールが最もコインに近いかの判定を詰め切れずコンテスト終了。
+
+        <img src="fig/icpc-result.png">
+        結果はABCDEの5完の37位＋学内1位で予選突破してそう。
+        順位の変動は下の画像のような感じだったらしい。
+        （[リンク](https://icpc-replay.vercel.app/chart?contest=2024_domestic&team=KITKAT)）
+        <img src="fig/icpc-replay.png">
+
+        <h2>今後について</h2>
+        <p>
+            　アジア予選が開催される12月末まであと約半年間ある。
+            個人としてはとりあえず青コーダーになりたい。
+            蟻本の勉強や苦手としてるARC・AGCの練習も積みたい。
+            あと幾何力ももっとレベルアップしたい（アジア予選では出題されると信じて）。
+        </p>
+        <p>
+            　自分は来年就職するのでこのチームでやるのは最後になる。
+            アジア予選で勝ち残ればもっと長い間3人で競プロできるらしい。
+            今の実力のままではplayoff進出は厳しいが頑張りたい。
+        </p>
+
+        <h2>この記事を読んだ人は以下の記事も読んでいます</h2>
+        <ul>
+            <li><a href="https://note.com/super_magpie2889/n/nbbc5b0ef4328">https://note.com/super_magpie2889/n/nbbc5b0ef4328</a></li>
+            <li><a href="https://super-ryuneng.hatenablog.com/entry/2024/07/09/001545">https://super-ryuneng.hatenablog.com/entry/2024/07/09/001545</a></li>
+            <li><a href="https://kureha908.hatenablog.com/entry/2024/07/06/132616">https://kureha908.hatenablog.com/entry/2024/07/06/132616</a></li>
+            <li><a href="https://shinchankosen.hatenadiary.jp/entry/2024/07/06/033309">https://shinchankosen.hatenadiary.jp/entry/2024/07/06/033309</a></li>
+            <li><a href="https://pro-anyone.hatenablog.com/entry/2024/07/06/041033">https://pro-anyone.hatenablog.com/entry/2024/07/06/041033</a></li>
+            <li><a href="https://trap.jp/post/2275/">https://trap.jp/post/2275/</a></li>
+            <li><a href="https://trap.jp/post/2278/">https://trap.jp/post/2278/</a></li>
+            <li><a href="https://trap.jp/post/2274/">https://trap.jp/post/2274/</a></li>
+            <li><a href="https://trap.jp/post/2273/">https://trap.jp/post/2273/</a></li>
+            <li><a href="https://trap.jp/post/2276/">https://trap.jp/post/2276/</a></li>
+            <li><a href="https://miscalc.hatenablog.com/entry/2024/07/06/020650">https://miscalc.hatenablog.com/entry/2024/07/06/020650</a></li>
+            <li><a href="https://logk.hateblo.jp/entry/2024/07/06/020949">https://logk.hateblo.jp/entry/2024/07/06/020949</a></li>
+            <li><a href="https://tk0-math.hatenablog.com/entry/2024/07/06/013152">https://tk0-math.hatenablog.com/entry/2024/07/06/013152</a></li>
+            <li><a href="https://yuma220284.hatenablog.com/entry/2024/07/06/013601">https://yuma220284.hatenablog.com/entry/2024/07/06/013601</a></li>
+            <li><a href="https://winter-2521.hatenablog.com/entry/2024/06/30/201254?_gl=1*1btt3ec*_gcl_au*MTkyOTk0MzIzNy4xNzE5NzQxNzM3">https://winter-2521.hatenablog.com/entry/2024/06/30/201254?_gl=1*1btt3ec*_gcl_au*MTkyOTk0MzIzNy4xNzE5NzQxNzM3</a></li>
+            <li><a href="https://winter-2521.hatenablog.com/entry/2024/07/06/165918?_gl=1*1etkbl9*_gcl_au*MTkyOTk0MzIzNy4xNzE5NzQxNzM3">https://winter-2521.hatenablog.com/entry/2024/07/06/165918?_gl=1*1etkbl9*_gcl_au*MTkyOTk0MzIzNy4xNzE5NzQxNzM3</a></li>
+            <li><a href="https://sotanishy.hatenablog.com/entry/2024/07/07/010437">https://sotanishy.hatenablog.com/entry/2024/07/07/010437</a></li>
+            <li><a href="https://karinohito.hatenablog.com/entry/2024/07/07/002044">https://karinohito.hatenablog.com/entry/2024/07/07/002044</a></li>
+            <li><a href="https://note.com/uruzunyaa/n/n0d1a67afbef3?sub_rt=share_pb">https://note.com/uruzunyaa/n/n0d1a67afbef3?sub_rt=share_pb</a></li>
+            <li><a href="https://cpbm-p.hatenablog.com/entry/2024/07/07/194829">https://cpbm-p.hatenablog.com/entry/2024/07/07/194829</a></li>
+            <li><a href="https://yukun-py.hatenablog.com/entry/2024/07/07/202248">https://yukun-py.hatenablog.com/entry/2024/07/07/202248</a></li>
+            <li><a href="https://hackmd.io/@atree/icpc_domestic2024">https://hackmd.io/@atree/icpc_domestic2024</a></li>
+            <li><a href="https://koutykkk.hatenablog.com/entry/2024/07/07/170714">https://koutykkk.hatenablog.com/entry/2024/07/07/170714</a></li>
+            <li><a href="https://titan-23.hatenablog.com/entry/2024/07/07/150400">https://titan-23.hatenablog.com/entry/2024/07/07/150400</a></li>
+            <li><a href="https://a01sa01to.com/articles/2024/07/icpc2024-prelim/">https://a01sa01to.com/articles/2024/07/icpc2024-prelim/</a></li>
+            <li><a href="https://today-or-yesterday.hatenablog.com/entry/2024/07/07/043347">https://today-or-yesterday.hatenablog.com/entry/2024/07/07/043347</a></li>
+            <li><a href="https://halss.hatenablog.com/entry/2024/07/07/004020">https://halss.hatenablog.com/entry/2024/07/07/004020</a></li>
+            <li><a href="https://kyushu-u-icpccc.hatenablog.com/entry/2024/07/10/024150">https://kyushu-u-icpccc.hatenablog.com/entry/2024/07/10/024150</a></li>
+            <li><a href="https://super-ryuneng.hatenablog.com/entry/2024/07/09/001545">https://super-ryuneng.hatenablog.com/entry/2024/07/09/001545</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
