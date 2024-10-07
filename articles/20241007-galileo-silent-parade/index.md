@@ -1,5 +1,7 @@
 # ガリレオ　沈黙のパレード
 
+{% raw %}{% include detail-summary.html html=content %}{% endraw %}
+
 ![image](image.png)
 
 ## きっかけ
@@ -22,7 +24,6 @@
 - 湯川の最後まで考え抜く姿勢、真似していきたい
 
 <details>
-
 <summary>ネタバレを含む感想</summary>
 
 - 数式書くシーン無くて泣泣泣
