@@ -1,0 +1,9 @@
+.film-calendar img {
+    width: 94px;
+    height: 72px;
+    object-fit: contain;
+    margin: 0 0 0 0;
+}
+.film-calendar td {
+    padding: 0 0 0 0;
+}
